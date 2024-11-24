@@ -1,3 +1,33 @@
-#heading{
-    color: aqua;
+#header-text{
+    font-family: 'Roboto Mono';
+    transition: ease-in-out 1s;
+}
+
+#profile{
+    width: 100%;
+}
+
+#button, #home-button{
+    transition: ease-in-out 0.2s;
+    color: black;
+    text-decoration: none;
+}
+
+#button:hover, #home-button:hover{
+    transform: scale(1.1);
+    text-shadow: 0 0 10px lightgray;
+    color: gray;
+}
+
+#button:active, #home-button:active{
+    color: white;
+}
+
+#home-button:hover{
+    transform: rotate(180deg);
+    transition: ease-in-out 1s;
+}
+
+#hyperion-dev-logo{
+    width: 10%;
 }
